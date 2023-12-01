@@ -1,3 +1,9 @@
+<?php
+session_start();
+include('includes/config.php');
+error_reporting(0);
+
+?>
 
 <!DOCTYPE HTML>
 <html lang="en">
@@ -10,24 +16,25 @@
   <meta name="description" content="">
   <title>Farm Management</title>
   <!--Bootstrap -->
-  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="css/style.css" type="text/css">
-  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-  <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
-  <link href="css/slick.css" rel="stylesheet">
-  <link href="css/bootstrap-slider.min.css" rel="stylesheet">
-  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css">
+  <link href="assets/css/slick.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-slider.min.css" rel="stylesheet">
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
   <!-- Fav and touch icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicon-icon/logo.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/favicon-icon/logo.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicon-icon/logo.png">
-  <link rel="apple-touch-icon-precomposed" href="images/favicon-icon/logo.png">
-  <link rel="shortcut icon" href="images/favicon-icon/logo.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/favicon-icon/logo.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/favicon-icon/logo.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/favicon-icon/logo.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/images/favicon-icon/logo.png">
+  <link rel="shortcut icon" href="assets/images/favicon-icon/logo.png">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  <!--FontAwesome Font Style -->
- <link href="css/font-awesome.min.css" rel="stylesheet">
+ <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -163,15 +170,15 @@
   <!--/Forgot-password-Form -->
 
   <!-- Scripts -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/interface.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/interface.js"></script>
 
   <!--bootstrap-slider-JS-->
-  <script src="js/bootstrap-slider.min.js"></script>
+  <script src="assets/js/bootstrap-slider.min.js"></script>
   <!--Slider-JS-->
-  <script src="js/slick.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
 
 
 <!--some of additional codes -->
