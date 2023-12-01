@@ -1,9 +1,10 @@
 <?php 
 // DB credentials.
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','farm');
+define('DB_HOST','phpwebapp12-server.mysql.database.azure.com');
+define('DB_USER','effgbmnsbi');
+define('DB_PASS','4J1388265ZXQ8804$');
+define('DB_NAME','phpwebapp12-database');
+// Establish database connection.
 // Establish database connection.
 try
 {
